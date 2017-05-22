@@ -1,0 +1,25 @@
+use strict;
+use warnings;
+
+my $hewan = "onta";
+my $angka1 = 42;
+my $angka2 = 2;
+
+print $hewan;
+print "hewanya adalah $animal";
+print "hasil dari $angka kali $angka adalah ", $angka * $angka;
+print "hasil dari $angka bagi $angka adalah ", $angka / $angka;
+
+my @hewan = ("onta", "sapi", "gajah");
+my @numbers = (23, 42, 69);
+my @gabungan   = ("onta", 42, 123);
+
+print $hewan[0];              
+print $hewan[1];              
+
+my %warna = (
+     apple  => "red",
+     banana => "yellow",
+);
+
+print $warna{"apple"};
